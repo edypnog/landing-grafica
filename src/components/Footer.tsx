@@ -85,6 +85,7 @@ const Footer: React.FC = () => {
                     <p className="text-sm">
                         © 2024 Gráfica Express. Todos os direitos reservados
                     </p>
+                    <a href="">Made by Edy Nogueira ♡</a>
                 </div>
             </div>
         </footer>
