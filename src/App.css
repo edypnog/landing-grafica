@@ -1,0 +1,45 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffd23f;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffd700;
+}
+
+/* Para adicionar efeito de contorno */
+::selection {
+    background: #1e1e1e;
+    color: #ffe400;
+    text-shadow: 
+    0 0 1px #ffe400,
+    0 0 3px rgba(255, 228, 0, 0.2);
+}
+
+/* Para seleção com gradiente */
+::-moz-selection {
+    background: linear-gradient(45deg, #1e1e1e, #2a2a2a);
+    color: #ffe400;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.3s ease-out;
+}
